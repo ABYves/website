@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>signPage</title>
+    <link href="../CSS/main.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav-bar top-nav flex-row"><!-- Contains the navigations bar-->
+    <ul class="nav-list">
+        <li class="nav-list-item"><a class="nav-link " href="index.html">Home</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="eat.html"><i class="currentPage">Eat</i></a></li>
+        <li class="nav-list-item"><a class="nav-link" href="sleep.html">Sleep</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="meet.html">Meetings</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="">shop</a></li>
+    </ul>
+</nav>
+
+<div class="BACKGROUND">
+<div class="information">
+
+    <h3 ><center style="color: #e6a70c;">PLEASE PROVIDE THE INFORMATION BELOW TO BOOK A ROOM</center></h3>
+<center>
+    <form  action="bookconnect.php" method="POST">
+
+   <input style="border-radius: 20px; border-style: none; background-color: #dddddd; text-align: center;
+   height: 30px;background-color: #dddddd; width: 300px;" placeholder="First name" type="text" name="firstname"><br>
+<input style="border-radius: 20px;border-style: none; border-style: nonebackground-color: #dddddd; text-align: center;
+   height: 30px;border-style: none;background-color: #dddddd; width: 300px;;" placeholder="Last name" type="text" name="lastname"><br>
+   <input style="border-radius: 20px; border-style: none;background-color: #dddddd; text-align: center;
+   height: 30px;border-style: none;background-color: #dddddd; width: 300px;;" placeholder="Email" type="email" name="email"><br>
+    <input style="border-radius: 20px; border-style: none;background-color: #dddddd; text-align: center;
+   height: 30px;border-style: none;background-color: #dddddd; width: 300px;;" placeholder="Phone Number" type="text" name="number"><br>
+    <input style="border-radius: 20px; border-style: none; background-color: #dddddd; text-align: center;
+   height: 30px;border-style: none;background-color: #dddddd; width: 300px;;" placeholder="Nationality" type="text" name="nationality"><br>
+ <input style="border-radius: 20px; border-style: none;background-color: #dddddd; text-align: center;
+   height: 30px;border-style: none;background-color: #dddddd; width: 300px;;" placeholder="Number of people" type="number" name="pnumber"><br>
+ <input style="border-radius: 20px; border-style: none;background-color: #dddddd; text-align: center;
+   height: 30px;border-style: none;background-color: #dddddd;width: 300px ;" placeholder="Room number" type="number" name="rnumber"><br>
+    <input style="border-radius: 20px; border-style: none;background-color: #ffa300; width: 300px;  height: 40px;" type="submit" value="Submit">
+
+</form>
+</center>
+</div>
+
+<!-- Footer section--->
+<div class="nav-bar flex-row">
+    <span class="white-text" style="justify-self: flex-start;margin:20px">&copy Radiant Ochre 2019</span><span style="margin:20px"><a href="#" class="white-text" style="text-decoration: none;">Back to top</a></span>
+</div>
+
+<!--script-->
+<script src="../JS/main.js"></script>
+</div>
+</body>
+</html>
