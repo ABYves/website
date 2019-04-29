@@ -1,0 +1,112 @@
+<?php
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Radiant-Meet</title>
+
+    <link href="../CSS/main.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-bar top-nav flex-row"><!-- Contains the navigations bar-->
+        <ul class="nav-list">
+            <li class="nav-list-item"><a class="nav-link " href="index.php">Home</a></li>
+            <li class="nav-list-item"><a class="nav-link" href="eat.php">Eat</a></li>
+            <li class="nav-list-item"><a class="nav-link" href="sleep.php">Sleep</a></li>
+            <li class="nav-list-item"><a class="nav-link" href="meet.php"><i class="currentPage">Meetings</i></a></li>
+            <li class="nav-list-item"><a class="nav-link" href="contact.php">Contact</a></li>
+            <li class="nav-list-item"><a class="nav-link" href="..Shop\PHP\index.html">shop</a></li>
+        </ul>
+    </nav>
+    <div id="top-section" >
+        <img src="../images/port-01.jpg" alt="Image of a nice looking bedroom" title="Radiant Ochre bedroom" class="top-image">
+        <p class="top-paragraph" style="background-color: #F6F6F8"><span class="orange-font-color" style="font-size: 40px">PROFESSIONAL | FUN</span>  <br>Hold your meetings in style</p>
+    </div>
+    <h1 class="orange-font-color center-text">OUR RESTAURANTS</h1>
+    <div class="main-description  grid-column" style="height:300px;grid-column-gap:0 ">
+        <div id="eat" class="food-description center-text" style="height:250px">
+            <h2>Twiga Hall</h2>
+            <p>is a 50 seater room ideal for medium sized meetings.<br/>
+                Features: Strong internet connection, excellent service, air conditioning
+            </p>
+            <h3>Price: From Frw 40,000.00</h3>
+            <a href="sign.html" class="center-text"><button class="learn-more-button" > Book Now</button></a>
+
+        </div>
+        <div id="sleep" class="food-description-darker center-text"  style="height:300px">
+            <h2>CHUI</h2>
+            <p>Chui is a 200 seater room ideal for medium sized meetings.<BR/>
+                Features: Strong internet connection, excellent service, air conditioning, free stationary
+
+            </p>
+            <h3>Price: From Frw 1000,000.00</h3>
+            <a href="sign.html" class="center-text"><button class="learn-more-button" > Book Now</button></a>
+
+        </div>
+        <div id="meet" class="food-description center-text" style="height:250px">
+            <h2>TWIN</h2>
+            <p>Are 2 5-seater rooms ideal for small meetings.<BR>
+                Features: Strong internet connection, excellent service, air conditioning
+
+            </p>
+            <h3>Price: From Frw 80,000.00</h3>
+            <a href="sign.html" class="center-text"><button class="learn-more-button" > Book Now</button></a>
+
+        </div>
+    </div>
+    <!--garden section-->
+    <div id="meet-garden" class="grid-column-2 grid-column-gap-row-gap-padding-20" style="height:300px">
+        <img src="../images/Outdoor-Catering.jpg" alt="Outside catering" class="grid-image-full">
+        <div class="flex-column-center flex-column" style="padding:20px">
+            <H2>Gardens</H2>
+            <p class="center-text">
+                Our Gardens, rich in color and experiencing with a cool breeze from the hills beyond are ideal for weddings, parties, team events corporate events and exhibitions. Give us a call and see your outdoor activity fetch you the best results.
+
+            </p>
+            <h3>Price: From Frw 1,000,000.00</h3>
+            <a href="sign.html" class="center-text"><button class="learn-more-button" > Book Now</button></a>
+        </div>
+
+    </div>
+    <!--The div below will contain the contact form-->
+    <div id="contact-container" class="flex-column">
+        <h1 class="orange-font-color center-text">CONTACT US</h1>
+        <div class="contact-content-container" style="width:100%">
+            <div  id="contact-details">
+                Let us know how to help/collaborate/do business via the contacts below.<br/> We are very friendly people.
+                You will receive a response as soon as possible.
+                <h3>Contact Details</h3>
+                <p>Tel: +250785774412</p>
+                <p> Email: radiantcontact@rochre.com</p>
+                <p>Address: 245 Avenue, Kigali, Rwanda</p>
+            </div>
+            <div class="flex-column flex-column-center">
+                <div id="message"></div>
+                <p>Drop us a message here and we will respond as soon as possible.</p>
+                <form action="message.php" method="post">
+                    <input style=" border-style: none; background-color: white; border-radius: 20px; height: 25px;width: 300px; text-align: center;" type="text" placeholder="Your name" name="name" required><br/>
+                  <input style=" border-style: none; background-color: white; border-radius: 20px;  height: 25px;width: 300px; text-align: center;" type="email" placeholder="Your email address" name="email" required><br/>
+                 <input style=" border-style: none; background-color: white; border-radius: 20px;  height: 25px;width: 300px; text-align: center;" type="number" name="phone" placeholder="phone number"><br/>
+                    <div  style="background-color: inherit"> <span style="float:left;margin-top: 15px; "></span><textarea style=" border-style: none; background-color: white; border-radius: 20px; width: 300px; text-align: center;" placeholder="What do you want to let us know?" name="message"></textarea><br/>
+                    </div>
+                    <input style="border-style: none; width: 300px; text-align: center;" type="submit" class="learn-more-button">
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer section--->
+    <div class="nav-bar flex-row">
+        <span class="white-text" style="justify-self: flex-start;margin:20px">&copy Radiant Ochre 2019</span><span style="margin:20px"><a href="#" class="white-text" style="text-decoration: none;">Back to top</a></span>
+    </div>
+
+
+    <!--script-->
+    <script src="../JS/main.js"></script>
+
+</body>
+</html>
